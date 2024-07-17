@@ -1,0 +1,105 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 1,
+            "pages": 6,
+            "per_page": 10,
+            "count": 10,
+            "total": 51
+        },
+        [
+            {
+                "table_id": 9,
+                "title": "Nilai Tukar Petani (NTP) menurut Subsektor, 2012-2013",
+                "subj_id": 22,
+                "subj": "Nilai Tukar Petani",
+                "updt_date": "2024-04-30",
+                "size": " MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=1vDYdvAGhDc62ACeDMM7%2FHZQ2KKTJG%2FYmbZ623eZU%2B3XW9V59lgBugFx4VSxgyW1SsEp1acxAq55X6t3UQngFw%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 50,
+                "title": "APM Dirinci menurut Jenis Kelamin Provinsi Aceh, Tahun 2012-2013",
+                "subj_id": 28,
+                "subj": "Pendidikan",
+                "updt_date": "2024-01-22",
+                "size": "0.02 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=3wol4mLWgzxoKYt9OyMHugaQijY4sZ85UPWdXiogklcT6tZDGmymwhGzv%2B21ubic8N%2FYylqwBVch9%2FY5dyfNZg%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 39,
+                "title": "Banyaknya Pelanggan Perusahaan Air Minum Menurut Jenis Pelanggan dan Kabupaten/Kota, 2013",
+                "subj_id": 7,
+                "subj": "Energi",
+                "updt_date": "2024-01-22",
+                "size": "0.03 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=1ZnoG8H3QUsGO8XOAOzNYQ5qxaENBsOF5kadL0paqy1X0%2BWB0kDrTHMhXCtgitQtbE8v4rjHqtKuzmAkDqgaew%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 347,
+                "title": " Tabel Input-Output Provinsi Aceh Transaksi Domestik Atas Dasar Harga Produsen (52 Industri), 2016 (Juta Rupiah)",
+                "subj_id": 105,
+                "subj": "Input output",
+                "updt_date": "2021-07-23",
+                "size": "0.1 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=NoPz1KPprr%2BG1zxJbhK98G4qVNPBD54%2ByiaAXBNNg3xQvtDt7pJfJuEnkm1nuWIPN11zLTZ%2FVDMcXavTEjt81Q%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 346,
+                "title": " Tabel Input-Output Provinsi Aceh Transaksi Domestik Atas Dasar Harga Produsen (17 Lapangan Usaha), 2016 (Juta Rupiah)",
+                "subj_id": 105,
+                "subj": "Input output",
+                "updt_date": "2021-07-23",
+                "size": "0.05 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=a6bees9FkLSCmHI3kTdwwkTTKi8lsnUkQK8K2dzesPw0tpTz9L19xyemooA9Dc%2BWziSSk%2FAdNZs9QCpOEUEvrw%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 345,
+                "title": "Indeks Daya Penyebaran dan Indeks Derajat Kepekaan Provinsi Aceh Menurut 17 Lapangan Usaha, 2016",
+                "subj_id": 105,
+                "subj": "Input output",
+                "updt_date": "2021-07-23",
+                "size": "0.03 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=EG%2FeTThaWGK2bbL15tq5nNqJybuaB30Y1WBZx8V77E3ORlydD2b21DckWnjMZtobVNpwosvNExY%2F5jclyjp%2FLw%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 344,
+                "title": "Indeks Daya Penyebaran dan Indeks Derajat Kepekaan Provinsi Aceh Menurut 52 Industri, 2016",
+                "subj_id": 105,
+                "subj": "Input output",
+                "updt_date": "2021-07-23",
+                "size": "0.03 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=zLJGL0afT8vOCjoZh6GmUDEeS78%2FFkc%2FcFzxxzZgYL0pVPLEaJbNjj0wXEFcev6IGbMkZAZtYyAdELkvFS5vFA%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 268,
+                "title": "Jumlah Sekolah, Guru dan Murid pada Madrasah Ibtidaiyah (MI) Swasta, Menurut Kabupaten/Kota, 2016/2017 - 2018/2019\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t",
+                "subj_id": 28,
+                "subj": "Pendidikan",
+                "updt_date": "2020-03-12",
+                "size": "0.04 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=OtlN6cjdCnukriNB97SNASHBs4GfgbTcMpROuuG9bdZnTWcvM0WdXKO8TQhqND1QmEAmHM4Ef0AMD9dE0ZUMQQ%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 267,
+                "title": "Jumlah Sekolah, Guru dan Murid pada Madrasah Ibtidaiyah (MI) Negeri, Menurut Kabupaten/Kota, 2016/2017 - 2018/2019\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t",
+                "subj_id": 28,
+                "subj": "Pendidikan",
+                "updt_date": "2020-03-12",
+                "size": "0.03 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=xBt8w03JfB2C3My2DsJ789HHlWQ%2FItDLaHVp6au7hm061sLeqhAXRan2MK6cYBbE79AuiIsQEjwQg1mb8BQgYw%3D%3D&tokenuser="
+            },
+            {
+                "table_id": 266,
+                "title": "Jumlah Sekolah, Guru dan Murid pada Sekolah Menengah Pertama (SMP) Swasta, Menurut Kabupaten/Kota, 2016/2017 - 2018/2019\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t",
+                "subj_id": 28,
+                "subj": "Pendidikan",
+                "updt_date": "2020-03-10",
+                "size": "0.04 MB",
+                "excel": "https://aceh.bps.go.id/statictable/downloadapi.html?data=EpwTHWI5z3dv8WzyTL3PC1oleWUjha9O5XPn3Bbe6jVZpLubXf2P1DQOqv8nPpb4qbkiAaLfcfvTM50HAH5hJA%3D%3D&tokenuser="
+            }
+        ]
+    ]
+}
