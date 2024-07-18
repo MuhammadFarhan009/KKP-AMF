@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Welcome to my Flask app!</h1>
+    {% for item in items %}
+        <h1>{{ item.title }}</h1>
+        <h2>{{ item.sub_name }}</h2>
+    {% endfor %}
+    <h1>{{ full_url }}</h1>
 </body>
 </html>

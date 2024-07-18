@@ -38,3 +38,7 @@
     10 = Pertambangan
     24 = Peternakan
     53 = Tanaman Pangan
+
+
+data
+list variabel
