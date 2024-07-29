@@ -9,18 +9,42 @@ async function fetchJSONData() {
 
         const status = data.status; // Dot notation
         const availability = data['data-availability']; // Bracket notation
-        const firstVarItem = data.var[0].note;
+        const judul = data.var[0].note;
 
         const labeldata = [];
 
         for (let i = 0; i < data.vervar.length; i++){
-            // data.vervar[i].label.push(labeldata);
             labeldata.push(data.vervar[i].label)
         }
-        
-        // console.log(data.turvar.length)
 
-        displayJSONData(status, availability, firstVarItem, labeldata);
+        const labelKecamatan = [];
+
+        for (let i = 0; i < data.turvar.length; i++){
+            labelKecamatan.push(data.turvar[i].label)
+        }
+        const dataTahun = [];
+
+        // dataTahun.push(data.datacontent[11012001971080])
+        // 11012001971090
+        
+        // const dataLengkap = [];
+        
+        // vervar looping
+        // console.log(data.vervar[0].val,data.var[0].val, )
+        // let tumbal = String(data.vervar[0].val) + String(data.var[0].val) + String(data.turvar[0].val) + String(data.tahun[0].val) + String(data.turtahun[0].val)
+        // console.log(tumbal)
+        // console.log(data.turvar.length)
+        // console.log(data.datacontent.keys)
+
+        Object.entries(data.datacontent).forEach(entry => {
+            // console.log("Key:", entry[0]);
+            // console.log("Value:", entry[1]);
+
+            dataTahun.push(entry[1])
+          });
+          
+
+        displayJSONData(status, availability, judul, labeldata, labelKecamatan, dataTahun);
     } catch (error) {
         console.error('Fetch error:', error);
     }
@@ -33,13 +57,14 @@ async function fetchJSONData() {
 // }
 
 // display specific value 
-function displayJSONData(status, availability, firstVarItem, labeldata){
+function displayJSONData(status, availability, judul, labeldata, labelKecamatan, dataTahun) {
     const jsonDataDiv = document.getElementById('jsonData');
     jsonDataDiv.innerHTML = `
-    <p>Status: ${status}</p>
-    <p>Availability: ${availability}</p>
-    <p>First var item: ${firstVarItem}</p>
+    <h1> ${judul}</h1>
+    <table><thead>
     <p>Label data : ${labeldata}</p>
+    <p>kecamatan data : ${labelKecamatan}</p>
+    <p>data untuk tahun sekian : ${dataTahun}</p>
     `;
 
 }

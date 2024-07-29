@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List Halaman semua data</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <style>
         table {
             width: 100%;
@@ -36,6 +37,8 @@
             text-decoration: underline;
         }
     </style>
+    <link href="./src/output.css" rel="stylesheet">
+
 </head>
 <body>
     <?php
@@ -76,8 +79,6 @@
 
 
     ?>
-
-
 <table border="1">
     <thead>
         <tr>
@@ -100,6 +101,9 @@
         <?php endforeach; ?>
     </tbody>
 </table>
+
+
+
 
 <?php
 $totalPage = $response["data"][0]["pages"];

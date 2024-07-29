@@ -3,8 +3,10 @@
 <head>
     <title>Contoh Penggunaan WebAPI</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <link href="./src/output.css" rel="stylesheet"> -->
+
 </head>
-<body>
+<body class="bg">
     <?php
     // Enable error reporting for debugging
     error_reporting(E_ALL);
@@ -134,6 +136,8 @@
     }
     echo "</tbody></table>";
     ?>
+<button class="btn btn-secondary">Two</button>
+
 
     <script>
         $(document).ready(function(){
